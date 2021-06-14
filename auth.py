@@ -75,7 +75,7 @@ def loginuser():
             return render_template("loginregistrationproject.html")
         login_user(user)
         if occupation == "TEACHER":
-            return render_template("teacher_dashboard.html")
+            return render_template("collection (1).html")
         elif occupation == "STUDENT":
             return render_template("applicationform(1).html")
         
